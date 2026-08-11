@@ -11,7 +11,7 @@
 | 编号 | 文件夹 | 说明 | 核心知识点 |
 | :---: | :--- | :--- | :--- |
 | 01 | [01_agent_basic](./01_agent_basic) | Agent 初体验 | `create_agent`, `@tool`, 工具调用 |
-| 02 | 待更新 | - | - |
+| 02 | [02_agent_stream](./02_agent_multi_tools) | 多工具 Agent | 多工具选择, stream流式输出, tool_calls追踪 |
 | 03 | 待更新 | - | - |
 
 ---
@@ -26,9 +26,11 @@ langchain-agent-learning/
 │ ├── app.py # Agent 初体验主程序
 │ └── README.md # 练习01的说明文档
 │
-├── 02_xxx/ # 📅 待创建
+├── 02_agent_multi_tools/              # ✅ 已创建
+│   ├── app.py
+│   └── README.md
 │
-└── requirements.txt # 依赖清单
+└── 03_xxx/                            # 📅 待创建
 
 ---
 
