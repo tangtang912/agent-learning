@@ -4,7 +4,7 @@ Agent 练习 01：Agent 初体验
 核心知识点：create_agent, @tool 装饰器, 工具调用
 """
 
-from langchain_agents import create_agent
+from langchain.agents import create_agent
 from langchain_community.chat_models import ChatTongyi
 from langchain_core.tools import tool
 
