@@ -12,7 +12,8 @@
 | :---: | :--- | :--- | :--- |
 | 01 | [01_agent_basic](./01_agent_basic) | Agent 初体验 | `create_agent`, `@tool`, 工具调用 |
 | 02 | [02_agent_stream](./02_agent_multi_tools) | 多工具 Agent | 多工具选择, stream流式输出, tool_calls追踪 |
-| 03 | 待更新 | - | - |
+| 03 | [03_agent_react](./03_agent_react) | ReAct Agent | ReAct框架, 单工具限制, 多步推理 |
+| 04 | 待更新 | - | - |
 
 ---
 
@@ -30,7 +31,11 @@ langchain-agent-learning/
 │   ├── app.py
 │   └── README.md
 │
-└── 03_xxx/                            # 📅 待创建
+├── 03_agent_react/                    # ✅ 已创建
+│   ├── app.py
+│   └── README.md
+│
+└── 04_xxx/                            # 📅 待创建
 
 ---
 
