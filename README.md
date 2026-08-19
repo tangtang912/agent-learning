@@ -13,8 +13,7 @@
 | 01 | [01_agent_basic](./01_agent_basic) | Agent 初体验 | `create_agent`, `@tool`, 工具调用 |
 | 02 | [02_agent_stream](./02_agent_multi_tools) | 多工具 Agent | 多工具选择, stream流式输出, tool_calls追踪 |
 | 03 | [03_agent_react](./03_agent_react) | ReAct Agent | ReAct框架, 单工具限制, 多步推理 |
-| 04 | 待更新 | - | - |
-
+| 04 | [04_agent_middleware](./04_agent_middleware) | Agent 中间件 | 生命周期钩子, 监控与扩展, before/after/wrap |
 ---
 
 ## 📂 项目结构
@@ -35,7 +34,9 @@ langchain-agent-learning/
 │   ├── app.py
 │   └── README.md
 │
-└── 04_xxx/                            # 📅 待创建
+├── 04_agent_middleware/               # ✅ 已创建
+│   ├── app.py
+│   └── README.md
 
 ---
 
